@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Scope timer with inner scopes</Description>
+    <Authors>Aleksandr Sukhodko</Authors>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageTags>scope timer</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/asukhodko/scope-timer/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/asukhodko/scope-timer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/asukhodko/scope-timer</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
