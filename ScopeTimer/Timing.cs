@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace ScopeTimer
 {
-    public class ScopeTimer
+    public class Timing
     {
-        public ScopeTimer(string scopeName)
+        public Timing(string scopeName)
         {
-            InnerScopes = new List<ScopeTimer>();
+            InnerScopes = new List<Timing>();
             ScopeName = scopeName;
         }
 
         public TimeSpan Elapsed { get; internal set; }
 
-        public List<ScopeTimer> InnerScopes { get; }
+        public List<Timing> InnerScopes { get; }
 
         public string ScopeName { get; }
     }

@@ -10,7 +10,7 @@
     <PackageLicenseUrl>https://raw.githubusercontent.com/asukhodko/scope-timer/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/asukhodko/scope-timer</PackageProjectUrl>
     <RepositoryUrl>https://github.com/asukhodko/scope-timer</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
